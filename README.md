@@ -1,4 +1,4 @@
-# Active Directory and Jason Web Token integration
+# Active Directory and JSON Web Token integration
 
 This project is a template to leverage Windows Active Directory user
 authentication and issue Jason Web Tokens as a result of a successful login.
