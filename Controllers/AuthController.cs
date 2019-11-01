@@ -26,7 +26,7 @@ namespace ad_jwt_api.Controllers
         {
             if (request == null
                 || string.IsNullOrWhiteSpace(request.Username)
-                || string.IsNullOrWhiteSpace(request.Username))
+                || string.IsNullOrWhiteSpace(request.Password))
             {
                 return BadRequest("Invalid credentials.");
             }
